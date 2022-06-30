@@ -19,6 +19,7 @@ def scan():
             cv2.imshow("QRCODEscanner", img)
             if cv2.waitKey(1) == ord("q"):
                 break
+
     if qrcode:
         print(qrcode)
         scan()
